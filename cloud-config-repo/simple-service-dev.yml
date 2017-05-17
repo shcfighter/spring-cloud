@@ -17,5 +17,5 @@ spring:
     date-format: yyyy-MM-dd HH:mm:ss
 
 mybatis:
-  mapperLocations: classpath:com/ecit/*/mapper/*.xml
-  typeAliasesPackage: com.ecit.*.model
+  mapperLocations: classpath:cloud/simple.*/mapper/*.xml
+  typeAliasesPackage: cloud.simple.*.model

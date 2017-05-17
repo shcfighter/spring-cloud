@@ -5,7 +5,7 @@ spring:
     config:
       server:
         git:
-          uri: https://github.com/shcfighter/spring-cloud-7simple.git
+          uri: https://github.com/shcfighter/spring-cloud.git
           searchPaths: cloud-config-repo
   application:
     name: cloud-config-server
