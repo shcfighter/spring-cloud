@@ -12,6 +12,7 @@
         <module>cloud-config-server</module>
         <module>cloud-eureka-server</module>
         <module>cloud-simple-service</module>
+        <module>cloud-simple-ui</module>
     </modules>
 
     <parent>

@@ -13,4 +13,4 @@ spring:
     name: cloud-eureka-server
 management:
   security:
-    enabled: false
+    enabled: true

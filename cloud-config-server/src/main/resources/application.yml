@@ -15,4 +15,4 @@ eureka:
       defaultZone: http://192.168.197.251:8761/eureka/
 management:
   security:
-    enabled: false
+    enabled: true

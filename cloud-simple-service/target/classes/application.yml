@@ -6,13 +6,5 @@ spring:
       profile: ${config.profile:dev}
   application:
     name: cloud-simple-service
-eureka:
-  client:
-    serviceUrl:
-      defaultZone: http://192.168.197.251:8761/eureka/
-server:
-  port: 8081
-management:
-  security:
-    enabled: false
+
 
