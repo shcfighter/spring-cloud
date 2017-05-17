@@ -1,0 +1,18 @@
+server:
+  port: 8888
+spring:
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/shcfighter/spring-cloud-7simple.git
+          searchPaths: cloud-config-repo
+  application:
+    name: cloud-config-server
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://192.168.197.251:8761/eureka/
+management:
+  security:
+    enabled: false
