@@ -14,12 +14,12 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="1.8">
-      <module name="cloud-config-server" target="1.6" />
-      <module name="cloud-eureka-server" target="1.6" />
-      <module name="cloud-simple-service" target="1.6" />
-      <module name="cloud-simple-ui" target="1.6" />
-      <module name="cloud-simple-zuul" target="1.6" />
-      <module name="spring-cloud" target="1.6" />
+      <module name="cloud-config-server" target="1.8" />
+      <module name="cloud-eureka-server" target="1.8" />
+      <module name="cloud-simple-service" target="1.8" />
+      <module name="cloud-simple-ui" target="1.8" />
+      <module name="cloud-simple-zuul" target="1.8" />
+      <module name="spring-cloud" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
