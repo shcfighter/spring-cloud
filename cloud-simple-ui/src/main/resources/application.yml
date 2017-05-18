@@ -4,10 +4,13 @@ spring:
       uri: http://192.168.101.134:${config.port:8888}
       name: simple-ui
       profile: ${config.profile:dev}
+  application:
+      name: cloud-simple-ui
+
+eureka:
+  client:
     serviceUrl:
       defaultZone: http://192.168.101.134:8761/eureka/,http://192.168.101.135:8761/eureka/
-  application:
-    name: cloud-simple-ui
 
 cloud-simple-service:
   ribbon:
