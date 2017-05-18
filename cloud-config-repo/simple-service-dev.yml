@@ -25,4 +25,4 @@ server:
 
 management:
   security:
-    enabled: true
+    enabled: false
