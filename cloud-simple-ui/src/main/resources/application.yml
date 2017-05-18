@@ -1,0 +1,18 @@
+spring:
+  cloud:
+    config:
+      uri: http://192.168.197.251:${config.port:8888}
+      name: simple-ui
+      profile: ${config.profile:dev}
+    serviceUrl:
+      defaultZone: http://192.168.197.251:8761/eureka/
+  application:
+    name: cloud-simple-ui
+
+cloud-simple-service:
+  ribbon:
+    ConnectTimeout: 5000
+    ReadTimeout: 10000
+
+server:
+  port: 8090

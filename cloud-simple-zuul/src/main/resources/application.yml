@@ -1,0 +1,21 @@
+logging:
+  level.org.springframework.cloud: DEBUG
+  
+server: 
+  port: 8080
+zuul:
+  ignoredPatterns: /health,/error
+  retryable: true  
+  routes:
+    smarts:
+      stripPrefix: true
+      path: /users/**
+      serviceId: cloud-simple-ui
+    
+ribbon:
+  eureka:
+    enabled: false
+
+cloud-simple-ui:
+  ribbon:
+    listOfServers: localhost:8090
