@@ -14,7 +14,7 @@ spring:
 eureka:
   client:
     serviceUrl:
-      defaultZone: http://192.168.101.134:8761/eureka/,http://192.168.101.135:8761/eureka/
+      defaultZone: http://springcloud1.com:8761/eureka/,http://cloudcloud2.com:8761/eureka/,http://cloudcloud3.com:8761/eureka/
 
 management:
   security:
