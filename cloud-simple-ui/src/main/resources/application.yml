@@ -1,7 +1,7 @@
 spring:
   cloud:
     config:
-      uri: http://192.168.101.134:${config.port:8888}
+      uri: http://springcloud1:${config.port:8888}
       name: simple-ui
       profile: ${config.profile:dev}
   application:
@@ -10,7 +10,7 @@ spring:
 eureka:
   client:
     serviceUrl:
-      defaultZone: http://192.168.101.134:8761/eureka/,http://192.168.101.135:8761/eureka/
+      defaultZone: http://springcloud1:8761/eureka/,http://cloudcloud2:8761/eureka/,http://cloudcloud3:8761/eureka/
 
 cloud-simple-service:
   ribbon:
