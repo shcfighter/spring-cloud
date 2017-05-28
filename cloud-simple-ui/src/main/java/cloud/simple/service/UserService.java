@@ -36,7 +36,7 @@ public class UserService {
 		 System.out.println("HystrixCommand fallbackMethod handle!");
 		 List<User> ls = new ArrayList<User>();
 		 User user = new User();
-		 user.setUsername("TestHystrixCommand");
+		 user.setUserName("TestHystrixCommand");
 		 ls.add(user);
 		 return ls;
 	 }

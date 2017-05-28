@@ -1,7 +1,7 @@
 eureka:
   client:
     serviceUrl:
-      defaultZone: http://springcloud1.com:8761/eureka/,http://cloudcloud2.com:8761/eureka/,http://cloudcloud3.com:8761/eureka/
+      defaultZone: http://springcloud1.com:8761/eureka/,http://springcloud2.com:8761/eureka/,http://springcloud3.com:8761/eureka/
 
 spring:
   cloud:
