@@ -2,25 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f1ea2f5e-6689-4998-8013-dc9aeab6299b" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cloud-simple-ui/src/main/java/cloud/simple/service/FeignUserService.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cloud-config-server/target/cloud-config-server-1.0-SNAPSHOT.jar.original" afterPath="$PROJECT_DIR$/cloud-config-server/target/cloud-config-server-1.0-SNAPSHOT.jar.original" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cloud-hystrix-dashboard/pom.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cloud-hystrix-dashboard/src/main/java/cloud/dashboard/server/HystrixDashboardApplication.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cloud-hystrix-dashboard/src/main/resources/application.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cloud-hystrix-dashboard/src/main/resources/log4j2.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cloud-simple-ui/src/main/java/cloud/simple/service/FallBackFeignService.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cloud-eureka-server/target/cloud-eureka-server-1.0-SNAPSHOT.jar.original" afterPath="$PROJECT_DIR$/cloud-eureka-server/target/cloud-eureka-server-1.0-SNAPSHOT.jar.original" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cloud-simple-service/target/cloud-simple-service-1.0-SNAPSHOT.jar.original" afterPath="$PROJECT_DIR$/cloud-simple-service/target/cloud-simple-service-1.0-SNAPSHOT.jar.original" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cloud-config-server/src/main/resources/application.yml" afterPath="$PROJECT_DIR$/cloud-config-server/src/main/resources/application.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cloud-config-server/target/classes/application.yml" afterPath="$PROJECT_DIR$/cloud-config-server/target/classes/application.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cloud-config-server/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/cloud-config-server/target/maven-archiver/pom.properties" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cloud-eureka-server/src/main/resources/application.yml" afterPath="$PROJECT_DIR$/cloud-eureka-server/src/main/resources/application.yml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cloud-eureka-server/target/classes/application.yml" afterPath="$PROJECT_DIR$/cloud-eureka-server/target/classes/application.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cloud-eureka-server/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/cloud-eureka-server/target/maven-archiver/pom.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cloud-simple-service/src/main/resources/bootstrap.yml" afterPath="$PROJECT_DIR$/cloud-simple-service/src/main/resources/bootstrap.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cloud-simple-service/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/cloud-simple-service/target/maven-archiver/pom.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cloud-simple-ui/pom.xml" afterPath="$PROJECT_DIR$/cloud-simple-ui/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cloud-simple-ui/src/main/java/cloud/simple/model/User.java" afterPath="$PROJECT_DIR$/cloud-simple-ui/src/main/java/cloud/simple/model/User.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cloud-simple-ui/src/main/java/cloud/simple/service/UserService.java" afterPath="$PROJECT_DIR$/cloud-simple-ui/src/main/java/cloud/simple/service/UserService.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cloud-simple-ui/src/main/java/cloud/simple/web/UserController.java" afterPath="$PROJECT_DIR$/cloud-simple-ui/src/main/java/cloud/simple/web/UserController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cloud-simple-ui/src/main/java/cloud/simple/service/FeignUserService.java" afterPath="$PROJECT_DIR$/cloud-simple-ui/src/main/java/cloud/simple/service/FeignUserService.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cloud-simple-ui/src/main/resources/application.yml" afterPath="$PROJECT_DIR$/cloud-simple-ui/src/main/resources/application.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -29,6 +25,7 @@
     <ignored path="$PROJECT_DIR$/cloud-simple-service/target/" />
     <ignored path="$PROJECT_DIR$/cloud-simple-ui/target/" />
     <ignored path="$PROJECT_DIR$/cloud-simple-zuul/target/" />
+    <ignored path="$PROJECT_DIR$/cloud-hystrix-dashboard/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -39,21 +36,31 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="UserService.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cloud-simple-ui/src/main/java/cloud/simple/service/UserService.java">
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cloud-hystrix-dashboard/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="312">
-              <caret line="38" column="26" lean-forward="false" selection-start-line="38" selection-start-column="26" selection-end-line="38" selection-end-column="26" />
+            <state relative-caret-position="356">
+              <caret line="76" column="12" lean-forward="false" selection-start-line="76" selection-start-column="12" selection-end-line="76" selection-end-column="12" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="FeignUserService.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cloud-simple-ui/src/main/java/cloud/simple/service/FeignUserService.java">
+      <file leaf-file-name="log4j2.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cloud-hystrix-dashboard/src/main/resources/log4j2.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="242">
-              <caret line="11" column="8" lean-forward="false" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="8" />
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="HystrixDashboardApplication.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cloud-hystrix-dashboard/src/main/java/cloud/dashboard/server/HystrixDashboardApplication.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="176">
+              <caret line="8" column="25" lean-forward="false" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="29" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -61,41 +68,31 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="FeignClient.class" pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-netflix-core/1.3.0.RELEASE/spring-cloud-netflix-core-1.3.0.RELEASE.jar!/org/springframework/cloud/netflix/feign/FeignClient.class">
+      <file leaf-file-name="application.yml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cloud-hystrix-dashboard/src/main/resources/application.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="482">
-              <caret line="44" column="0" lean-forward="true" selection-start-line="44" selection-start-column="0" selection-end-line="44" selection-end-column="0" />
+            <state relative-caret-position="188">
+              <caret line="16" column="24" lean-forward="true" selection-start-line="16" selection-start-column="24" selection-end-line="16" selection-end-column="24" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="User.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cloud-simple-service/src/main/java/cloud/simple/user/model/User.java">
+      <file leaf-file-name="UserController.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/cloud-simple-service/src/main/java/cloud/simple/user/controller/UserController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="510">
-              <caret line="139" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="139" selection-end-column="1" />
+            <state relative-caret-position="22">
+              <caret line="27" column="34" lean-forward="true" selection-start-line="27" selection-start-column="34" selection-end-line="27" selection-end-column="34" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="UserController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cloud-simple-ui/src/main/java/cloud/simple/web/UserController.java">
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cloud-simple-ui/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="196">
-              <caret line="36" column="0" lean-forward="false" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="User.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cloud-simple-ui/src/main/java/cloud/simple/model/User.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="132">
-              <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+            <state relative-caret-position="286">
+              <caret line="13" column="8" lean-forward="false" selection-start-line="13" selection-start-column="8" selection-end-line="63" selection-end-column="21" />
               <folding />
             </state>
           </provider>
@@ -104,9 +101,20 @@
       <file leaf-file-name="WebApplication.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/cloud-simple-ui/src/main/java/cloud/simple/WebApplication.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="160">
+            <state relative-caret-position="220">
               <caret line="27" column="7" lean-forward="false" selection-start-line="27" selection-start-column="7" selection-end-line="27" selection-end-column="7" />
-              <folding />
+              <folding>
+                <element signature="e#0#1517#0" expanded="false" />
+                <element signature="imports" expanded="false" />
+                <element signature="e#1153#1154#0" expanded="false" />
+                <element signature="e#1185#1186#0" expanded="false" />
+                <element signature="e#1254#1255#0" expanded="false" />
+                <element signature="e#1283#1284#0" expanded="false" />
+                <element signature="e#1328#1329#0" expanded="false" />
+                <element signature="e#1359#1360#0" expanded="false" />
+                <element signature="e#1451#1452#0" expanded="false" />
+                <element signature="e#1512#1513#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -115,20 +123,20 @@
         <entry file="file://$PROJECT_DIR$/cloud-eureka-server/src/main/java/cloud/eureka/server/EurekaServerApplication.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="132">
-              <caret line="12" column="19" lean-forward="true" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="19" />
+              <caret line="12" column="19" lean-forward="false" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="19" />
               <folding>
-                <element signature="e#455#456#0" expanded="true" />
-                <element signature="e#529#530#0" expanded="true" />
+                <element signature="n#!!doc" expanded="false" />
+                <element signature="imports" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
+      <file leaf-file-name="FallBackFeignService.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cloud-simple-ui/src/main/java/cloud/simple/service/FallBackFeignService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="301">
-              <caret line="29" column="11" lean-forward="false" selection-start-line="29" selection-start-column="11" selection-end-line="29" selection-end-column="11" />
+            <state relative-caret-position="396">
+              <caret line="24" column="26" lean-forward="false" selection-start-line="24" selection-start-column="26" selection-end-line="24" selection-end-column="26" />
               <folding />
             </state>
           </provider>
@@ -140,6 +148,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -203,15 +212,20 @@
         <option value="$PROJECT_DIR$/cloud-config-repo/simple-service-dev.yml" />
         <option value="$PROJECT_DIR$/cloud-config-server/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/cloud-simple-service/src/main/resources/bootstrap.yml" />
-        <option value="$PROJECT_DIR$/cloud-simple-ui/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/cloud-eureka-server/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/cloud-simple-ui/pom.xml" />
         <option value="$PROJECT_DIR$/cloud-simple-ui/src/main/java/cloud/simple/web/UserController.java" />
         <option value="$PROJECT_DIR$/cloud-simple-ui/src/main/java/cloud/simple/model/User.java" />
         <option value="$PROJECT_DIR$/cloud-simple-ui/src/main/java/cloud/simple/service/UserService.java" />
-        <option value="$PROJECT_DIR$/cloud-simple-ui/src/main/java/cloud/simple/service/FeignUserService.java" />
         <option value="$PROJECT_DIR$/cloud-simple-ui/src/main/java/cloud/simple/WebApplication.java" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/cloud-simple-ui/src/main/java/cloud/simple/service/FeignUserService.java" />
+        <option value="$PROJECT_DIR$/cloud-simple-ui/src/main/java/cloud/simple/service/FallBackFeignService.java" />
+        <option value="$PROJECT_DIR$/cloud-simple-ui/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/cloud-eureka-server/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/cloud-hystrix-dashboard/src/main/java/HystrixDashboardApplication.java" />
+        <option value="$PROJECT_DIR$/cloud-hystrix-dashboard/pom.xml" />
+        <option value="$PROJECT_DIR$/cloud-hystrix-dashboard/src/main/java/cloud/dashboard/server/HystrixDashboardApplication.java" />
+        <option value="$PROJECT_DIR$/cloud-hystrix-dashboard/src/main/resources/application.yml" />
       </list>
     </option>
   </component>
@@ -236,7 +250,7 @@
           <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
         </PATH_ELEMENT>
         <PATH_ELEMENT>
-          <option name="myItemId" value="cloud-simple-ui" />
+          <option name="myItemId" value="cloud-hystrix-dashboard" />
           <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
         </PATH_ELEMENT>
       </PATH>
@@ -246,7 +260,7 @@
           <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
         </PATH_ELEMENT>
         <PATH_ELEMENT>
-          <option name="myItemId" value="cloud-simple-ui" />
+          <option name="myItemId" value="cloud-hystrix-dashboard" />
           <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
         </PATH_ELEMENT>
         <PATH_ELEMENT>
@@ -280,8 +294,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -304,178 +319,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="cloud-simple-ui" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="spring-cloud" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="spring-cloud" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="cloud-simple-ui" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="spring-cloud" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="spring-cloud" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="cloud-simple-ui" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="simple" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="spring-cloud" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="spring-cloud" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="cloud-simple-ui" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="simple" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="web" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="spring-cloud" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="spring-cloud" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="cloud-simple-ui" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="simple" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="service" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="spring-cloud" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="spring-cloud" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="cloud-simple-ui" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="simple" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="model" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="spring-cloud" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="spring-cloud" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="cloud-simple-service" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -618,97 +461,12 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="model" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="spring-cloud" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="spring-cloud" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="cloud-eureka-server" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="spring-cloud" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="spring-cloud" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="cloud-eureka-server" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="spring-cloud" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="spring-cloud" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="cloud-eureka-server" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="spring-cloud" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="spring-cloud" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="cloud-eureka-server" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="server" />
+              <option name="myItemId" value="controller" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -730,11 +488,11 @@
       <recent name="cloud.config.server" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\IdeaProjects\spring-cloud\cloud-hystrix-dashboard\src\main\resources" />
       <recent name="D:\IdeaProjects\spring-cloud\cloud-simple-zuul\src\main\resources" />
       <recent name="D:\IdeaProjects\spring-cloud\cloud-simple-zuul\src\main\java" />
       <recent name="D:\IdeaProjects\spring-cloud\cloud-simple-ui\src\main\resources" />
       <recent name="D:\IdeaProjects\spring-cloud\cloud-simple-service\src\main\resources" />
-      <recent name="D:\IdeaProjects\spring-cloud\cloud-config-repo" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -749,7 +507,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.WebApplication">
+  <component name="RunManager" selected="Spring Boot.HystrixDashboardApplication">
     <configuration default="false" name="ZuulApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -1199,12 +957,20 @@
       <envs />
       <method />
     </configuration>
-    <list size="5">
+    <configuration default="false" name="HystrixDashboardApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="cloud.dashboard.server.HystrixDashboardApplication" />
+      <module name="cloud-hystrix-dashboard" />
+      <envs />
+      <method />
+    </configuration>
+    <list size="6">
       <item index="0" class="java.lang.String" itemvalue="Spring Boot.ConfigServerApplication" />
       <item index="1" class="java.lang.String" itemvalue="Spring Boot.EurekaServer" />
       <item index="2" class="java.lang.String" itemvalue="Spring Boot.SimpleServiceApplication" />
       <item index="3" class="java.lang.String" itemvalue="Spring Boot.WebApplication" />
       <item index="4" class="java.lang.String" itemvalue="Spring Boot.ZuulApplication" />
+      <item index="5" class="java.lang.String" itemvalue="Spring Boot.HystrixDashboardApplication" />
     </list>
     <recent_temporary>
       <list size="1">
@@ -1228,12 +994,13 @@
       <workItem from="1495084245123" duration="11603000" />
       <workItem from="1495265982797" duration="5239000" />
       <workItem from="1495596941198" duration="136000" />
-      <workItem from="1495939008388" duration="9719000" />
+      <workItem from="1495939008388" duration="13863000" />
+      <workItem from="1496191458303" duration="2295000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="63987000" />
+    <option name="totallyTimeSpent" value="70426000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -1258,14 +1025,13 @@
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.29787233" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29787233" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2708018" sideWeight="0.4902439" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27458397" sideWeight="0.4902439" order="1" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25567323" sideWeight="0.5097561" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="SonarLint" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289689" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32569557" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -1273,6 +1039,7 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32569557" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1283,7 +1050,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="2" />
+      <option name="time" value="3" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -1292,29 +1059,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$MAVEN_REPOSITORY$/com/netflix/eureka/eureka-client/1.6.2/eureka-client-1.6.2.jar!/com/netflix/discovery/shared/transport/decorator/EurekaHttpClientDecorator.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="20" column="71" lean-forward="true" selection-start-line="20" selection-start-column="71" selection-end-line="20" selection-end-column="71" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-eureka-server/src/main/resources/banner.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-config-server/src/main/resources/banner.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-simple-service/src/main/java/cloud/simple/service/web/UserController.java" />
-    <entry file="file://$PROJECT_DIR$/cloud-simple-service/src/main/java/cloud/simple/service/SimpleServiceApplication.java" />
     <entry file="file://$PROJECT_DIR$/cloud-simple-service/src/main/java/cloud/simple/service/conf/DataSourceProperties.java" />
     <entry file="file://$PROJECT_DIR$/cloud-simple-service/src/main/java/cloud/simple/service/conf/MybatisDataSource.java" />
     <entry file="file://$PROJECT_DIR$/spring-cloud.iml">
@@ -1328,7 +1072,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1464,15 +1207,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="242">
           <caret line="11" column="27" lean-forward="true" selection-start-line="11" selection-start-column="27" selection-end-line="11" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-eureka-server/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="16" column="18" lean-forward="false" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1480,7 +1214,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="66">
           <caret line="3" column="129" lean-forward="false" selection-start-line="3" selection-start-column="129" selection-end-line="3" selection-end-column="129" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1488,15 +1221,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="219">
           <caret line="11" column="29" lean-forward="false" selection-start-line="11" selection-start-column="29" selection-end-line="11" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-simple-ui/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="7" column="27" lean-forward="false" selection-start-line="7" selection-start-column="27" selection-end-line="7" selection-end-column="27" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1508,27 +1232,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-simple-service/src/main/java/cloud/simple/user/controller/UserController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="31" column="38" lean-forward="true" selection-start-line="31" selection-start-column="38" selection-end-line="31" selection-end-column="38" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-simple-ui/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="382">
-          <caret line="21" column="4" lean-forward="false" selection-start-line="21" selection-start-column="4" selection-end-line="21" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/cloud-simple-service/src/main/java/cloud/simple/user/model/User.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="510">
           <caret line="139" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="139" selection-end-column="1" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1544,7 +1251,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="138">
           <caret line="37" column="0" lean-forward="false" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1552,7 +1258,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="94">
           <caret line="454" column="0" lean-forward="false" selection-start-line="454" selection-start-column="0" selection-end-line="454" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1560,7 +1265,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="94">
           <caret line="85" column="0" lean-forward="false" selection-start-line="85" selection-start-column="0" selection-end-line="85" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1568,23 +1272,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
           <caret line="59" column="0" lean-forward="false" selection-start-line="59" selection-start-column="0" selection-end-line="59" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-simple-ui/src/main/java/cloud/simple/service/FeignUserService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="11" column="8" lean-forward="false" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="8" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/cloud-simple-ui/src/main/java/cloud/simple/web/UserController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="196">
+        <state relative-caret-position="440">
           <caret line="36" column="0" lean-forward="false" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
           <folding />
         </state>
@@ -1592,7 +1285,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/cloud-simple-ui/src/main/java/cloud/simple/service/UserService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
+        <state relative-caret-position="528">
           <caret line="38" column="26" lean-forward="false" selection-start-line="38" selection-start-column="26" selection-end-line="38" selection-end-column="26" />
           <folding />
         </state>
@@ -1602,14 +1295,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="482">
           <caret line="44" column="0" lean-forward="true" selection-start-line="44" selection-start-column="0" selection-end-line="44" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-simple-ui/src/main/java/cloud/simple/WebApplication.java">
+    <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="27" column="7" lean-forward="false" selection-start-line="27" selection-start-column="7" selection-end-line="27" selection-end-column="7" />
+        <state relative-caret-position="213">
+          <caret line="25" column="0" lean-forward="true" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -1617,18 +1309,113 @@
     <entry file="file://$PROJECT_DIR$/cloud-eureka-server/src/main/java/cloud/eureka/server/EurekaServerApplication.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="132">
-          <caret line="12" column="19" lean-forward="true" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="19" />
+          <caret line="12" column="19" lean-forward="false" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="19" />
           <folding>
-            <element signature="e#455#456#0" expanded="true" />
-            <element signature="e#529#530#0" expanded="true" />
+            <element signature="n#!!doc" expanded="false" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
+    <entry file="file://$PROJECT_DIR$/cloud-simple-ui/src/main/java/cloud/simple/WebApplication.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="301">
-          <caret line="29" column="11" lean-forward="false" selection-start-line="29" selection-start-column="11" selection-end-line="29" selection-end-column="11" />
+        <state relative-caret-position="220">
+          <caret line="27" column="7" lean-forward="false" selection-start-line="27" selection-start-column="7" selection-end-line="27" selection-end-column="7" />
+          <folding>
+            <element signature="e#0#1517#0" expanded="false" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#1153#1154#0" expanded="false" />
+            <element signature="e#1185#1186#0" expanded="false" />
+            <element signature="e#1254#1255#0" expanded="false" />
+            <element signature="e#1283#1284#0" expanded="false" />
+            <element signature="e#1328#1329#0" expanded="false" />
+            <element signature="e#1359#1360#0" expanded="false" />
+            <element signature="e#1451#1452#0" expanded="false" />
+            <element signature="e#1512#1513#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-simple-ui/src/main/java/cloud/simple/service/FallBackFeignService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="24" column="26" lean-forward="false" selection-start-line="24" selection-start-column="26" selection-end-line="24" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-simple-ui/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-simple-ui/src/main/java/cloud/simple/service/FeignUserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="12" column="17" lean-forward="false" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-eureka-server/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="11" column="75" lean-forward="false" selection-start-line="11" selection-start-column="75" selection-end-line="11" selection-end-column="75" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-simple-ui/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="13" column="8" lean-forward="false" selection-start-line="13" selection-start-column="8" selection-end-line="63" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-hystrix-dashboard/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="356">
+          <caret line="76" column="12" lean-forward="false" selection-start-line="76" selection-start-column="12" selection-end-line="76" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-hystrix-dashboard/src/main/resources/log4j2.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-hystrix-dashboard/src/main/java/cloud/dashboard/server/HystrixDashboardApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="8" column="25" lean-forward="false" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-hystrix-dashboard/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="188">
+          <caret line="16" column="24" lean-forward="true" selection-start-line="16" selection-start-column="24" selection-end-line="16" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-simple-service/src/main/java/cloud/simple/user/controller/UserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="27" column="34" lean-forward="true" selection-start-line="27" selection-start-column="34" selection-end-line="27" selection-end-column="34" />
           <folding />
         </state>
       </provider>
@@ -1687,7 +1474,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>spring-cloud</last-edited>
+          <last-edited>cloud-hystrix-dashboard</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

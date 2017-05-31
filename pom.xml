@@ -20,6 +20,7 @@
         <module>cloud-simple-service</module>
         <module>cloud-simple-ui</module>
         <module>cloud-simple-zuul</module>
+        <module>cloud-hystrix-dashboard</module>
     </modules>
 
     <parent>

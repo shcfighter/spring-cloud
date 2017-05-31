@@ -3,6 +3,8 @@ server:
 eureka:
   instance:  
     hostname: springcloud3.com
+  server:
+    enableSelfPreservation: false
   client:
     registerWithEureka: true
     fetchRegistry: true

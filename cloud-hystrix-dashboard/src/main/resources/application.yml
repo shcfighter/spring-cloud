@@ -2,10 +2,10 @@ spring:
   cloud:
     config:
       uri: http://springcloud1.com:${config.port:8888}
-      name: simple-ui
+      name: hystrix-dashboard
       profile: ${config.profile:dev}
   application:
-      name: cloud-simple-ui
+      name: cloud-hystrix-dashboard
 
 eureka:
   client:
@@ -18,13 +18,9 @@ cloud-simple-service:
     ReadTimeout: 10000
 
 server:
-  port: 8090
+  port: 8030
 
 management:
   security:
     enabled: false
 
-#启动feign的hystrix
-feign:
-  hystrix:
-    enabled: true
