@@ -9,6 +9,7 @@
         <module name="cloud-config-server" />
         <module name="cloud-eureka-server" />
         <module name="cloud-hystrix-dashboard" />
+        <module name="cloud-hystrix-turbine" />
         <module name="cloud-simple-service" />
         <module name="cloud-simple-ui" />
         <module name="cloud-simple-zuul" />
@@ -18,6 +19,7 @@
       <module name="cloud-config-server" target="1.8" />
       <module name="cloud-eureka-server" target="1.8" />
       <module name="cloud-hystrix-dashboard" target="1.8" />
+      <module name="cloud-hystrix-turbine" target="1.8" />
       <module name="cloud-simple-service" target="1.8" />
       <module name="cloud-simple-ui" target="1.8" />
       <module name="cloud-simple-zuul" target="1.8" />

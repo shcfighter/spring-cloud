@@ -8,6 +8,9 @@ spring:
       name: cloud-simple-ui
 
 eureka:
+  instance:
+    metadata-map:
+      cluster: MAIN
   client:
     serviceUrl:
       defaultZone: http://springcloud1.com:8761/eureka/,http://springcloud2.com:8761/eureka/,http://springcloud3.com:8761/eureka/
