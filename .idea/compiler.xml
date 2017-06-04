@@ -12,6 +12,7 @@
         <module name="cloud-hystrix-turbine" />
         <module name="cloud-simple-service" />
         <module name="cloud-simple-ui" />
+        <module name="cloud-simple-ui-feign" />
         <module name="cloud-simple-zuul" />
       </profile>
     </annotationProcessing>
@@ -22,6 +23,7 @@
       <module name="cloud-hystrix-turbine" target="1.8" />
       <module name="cloud-simple-service" target="1.8" />
       <module name="cloud-simple-ui" target="1.8" />
+      <module name="cloud-simple-ui-feign" target="1.8" />
       <module name="cloud-simple-zuul" target="1.8" />
       <module name="spring-cloud" target="1.8" />
     </bytecodeTargetLevel>

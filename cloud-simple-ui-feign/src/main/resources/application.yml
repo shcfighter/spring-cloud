@@ -1,0 +1,33 @@
+spring:
+  cloud:
+    config:
+      uri: http://springcloud1.com:${config.port:8888}
+      name: simple-ui-feign
+      profile: ${config.profile:dev}
+  application:
+      name: cloud-simple-ui-feign
+
+eureka:
+  instance:
+    metadata-map:
+      cluster: MAIN
+  client:
+    serviceUrl:
+      defaultZone: http://springcloud1.com:8761/eureka/,http://springcloud2.com:8761/eureka/,http://springcloud3.com:8761/eureka/
+
+cloud-simple-service:
+  ribbon:
+    ConnectTimeout: 5000
+    ReadTimeout: 10000
+
+server:
+  port: 8090
+
+management:
+  security:
+    enabled: false
+
+#启动feign的hystrix
+feign:
+  hystrix:
+    enabled: true

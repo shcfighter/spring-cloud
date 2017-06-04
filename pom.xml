@@ -22,6 +22,7 @@
         <module>cloud-simple-zuul</module>
         <module>cloud-hystrix-dashboard</module>
         <module>cloud-hystrix-turbine</module>
+        <module>cloud-simple-ui-feign</module>
     </modules>
 
     <parent>
