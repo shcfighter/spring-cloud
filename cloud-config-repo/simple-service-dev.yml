@@ -26,6 +26,3 @@ server:
 management:
   security:
     enabled: false
-
-bus:
-  user: 王老五
