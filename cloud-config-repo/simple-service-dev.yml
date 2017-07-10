@@ -28,4 +28,4 @@ management:
     enabled: false
 
 bus:
-  user: lisi
+  user: 王老五
