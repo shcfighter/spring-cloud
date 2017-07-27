@@ -6,11 +6,6 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="cloud-config-server" />
-        <module name="cloud-eureka-server" />
-        <module name="cloud-simple-service" />
-        <module name="cloud-simple-ui" />
-        <module name="cloud-simple-zuul" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="1.8">
@@ -19,6 +14,7 @@
       <module name="cloud-simple-service" target="1.8" />
       <module name="cloud-simple-ui" target="1.8" />
       <module name="cloud-simple-zuul" target="1.8" />
+      <module name="cloudsleuthservice" target="1.8" />
       <module name="spring-cloud" target="1.8" />
     </bytecodeTargetLevel>
   </component>
