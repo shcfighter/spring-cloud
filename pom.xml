@@ -14,6 +14,7 @@
         <java.version>1.8</java.version>
     </properties>
 
+<<<<<<< HEAD
     <dependencies>
         <dependency>
             <groupId>org.springframework.cloud</groupId>
@@ -69,6 +70,18 @@
             <artifactId>spring-boot-starter-log4j2</artifactId>
         </dependency>
     </dependencies>
+=======
+    <modules>
+        <module>cloud-config-server</module>
+        <module>cloud-eureka-server</module>
+        <module>cloud-simple-service</module>
+        <module>cloud-simple-ui</module>
+        <module>cloud-simple-zuul</module>
+        <module>cloud-hystrix-dashboard</module>
+        <module>cloud-hystrix-turbine</module>
+        <module>cloud-simple-ui-feign</module>
+    </modules>
+>>>>>>> 7fec7ec5fdfe4fa32ebce8bfcdd1b63cc9b40b96
 
     <dependencyManagement>
         <dependencies>

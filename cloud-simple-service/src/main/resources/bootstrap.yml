@@ -1,16 +1,21 @@
 eureka:
   client:
     serviceUrl:
-      defaultZone: http://springcloud1.com:8761/eureka/,http://springcloud2.com:8761/eureka/,http://springcloud3.com:8761/eureka/
+      defaultZone: http://192.168.101.148:8761/eureka/
 
 spring:
   cloud:
     config:
-      uri: http://springcloud1.com:${config.port:8888}
-      name: simple-service
+      uri: http://localhost:${config.port:8888}
+      name: simple-service,bus
       profile: dev
   application:
     name: cloud-simple-service
+  rabbitmq:
+    host: 192.168.101.148
+    port: 5672
+    username: admin
+    password: 123456
 
 management:
   security:

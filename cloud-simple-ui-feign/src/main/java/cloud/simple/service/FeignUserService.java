@@ -9,7 +9,7 @@ import java.util.List;
 /**
  * Created by za-wangshenhua on 2017/5/28.
  */
-@FeignClient(name = "CLOUD-SIMPLE-SERVICE")
+@FeignClient(name = "CLOUD-SIMPLE-SERVICE", fallback = FallBackFeignService.class)
 public interface FeignUserService {
 
     @RequestMapping(value = "getUserList")

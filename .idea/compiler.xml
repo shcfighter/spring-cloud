@@ -2,17 +2,32 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
       <profile name="Maven default annotation processors profile" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+<<<<<<< HEAD
+=======
+        <module name="cloud-config-server" />
+        <module name="cloud-eureka-server" />
+        <module name="cloud-hystrix-dashboard" />
+        <module name="cloud-hystrix-turbine" />
+        <module name="cloud-simple-service" />
+        <module name="cloud-simple-ui" />
+        <module name="cloud-simple-ui-feign" />
+        <module name="cloud-simple-zuul" />
+>>>>>>> 7fec7ec5fdfe4fa32ebce8bfcdd1b63cc9b40b96
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="1.8">
       <module name="cloud-config-server" target="1.8" />
       <module name="cloud-eureka-server" target="1.8" />
+      <module name="cloud-hystrix-dashboard" target="1.8" />
+      <module name="cloud-hystrix-turbine" target="1.8" />
       <module name="cloud-simple-service" target="1.8" />
       <module name="cloud-simple-ui" target="1.8" />
+      <module name="cloud-simple-ui-feign" target="1.8" />
       <module name="cloud-simple-zuul" target="1.8" />
       <module name="cloudsleuthservice" target="1.8" />
       <module name="spring-cloud" target="1.8" />

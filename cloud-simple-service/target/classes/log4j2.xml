@@ -2,7 +2,7 @@
 <configuration status="debug">
 
     <properties>
-        <property name="logPath">/data/logs</property>
+        <property name="logPath">/data/logs/cloud-simple-service</property>
     </properties>
 
     <appenders>
