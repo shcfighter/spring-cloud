@@ -27,6 +27,3 @@ management:
   security:
     enabled: false
 
-
-bus:
-  user: zhangsan
