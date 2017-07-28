@@ -8,11 +8,8 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>cloud.simple</groupId>
-    <artifactId>cloud-sleuth-service</artifactId>
+    <artifactId>cloud-sleuth-ui</artifactId>
     <packaging>jar</packaging>
-
-    <name>cloud-sleuth-service</name>
-    <url>http://maven.apache.org</url>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -56,6 +53,14 @@
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-log4j2</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-starter-feign</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-starter-hystrix</artifactId>
         </dependency>
         <dependency>
             <groupId>org.springframework.cloud</groupId>

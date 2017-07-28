@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-<<<<<<< HEAD
-=======
       <module fileurl="file://$PROJECT_DIR$/cloud-config-server/cloud-config-server.iml" filepath="$PROJECT_DIR$/cloud-config-server/cloud-config-server.iml" />
       <module fileurl="file://$PROJECT_DIR$/cloud-eureka-server/cloud-eureka-server.iml" filepath="$PROJECT_DIR$/cloud-eureka-server/cloud-eureka-server.iml" />
       <module fileurl="file://$PROJECT_DIR$/cloud-hystrix-dashboard/cloud-hystrix-dashboard.iml" filepath="$PROJECT_DIR$/cloud-hystrix-dashboard/cloud-hystrix-dashboard.iml" />
@@ -12,7 +10,9 @@
       <module fileurl="file://$PROJECT_DIR$/cloud-simple-ui/cloud-simple-ui.iml" filepath="$PROJECT_DIR$/cloud-simple-ui/cloud-simple-ui.iml" />
       <module fileurl="file://$PROJECT_DIR$/cloud-simple-ui-feign/cloud-simple-ui-feign.iml" filepath="$PROJECT_DIR$/cloud-simple-ui-feign/cloud-simple-ui-feign.iml" />
       <module fileurl="file://$PROJECT_DIR$/cloud-simple-zuul/cloud-simple-zuul.iml" filepath="$PROJECT_DIR$/cloud-simple-zuul/cloud-simple-zuul.iml" />
->>>>>>> 7fec7ec5fdfe4fa32ebce8bfcdd1b63cc9b40b96
+      <module fileurl="file://$PROJECT_DIR$/cloud-sleuth-service/cloud-sleuth-service.iml" filepath="$PROJECT_DIR$/cloud-sleuth-service/cloud-sleuth-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cloud-sleuth-ui/cloud-sleuth-ui.iml" filepath="$PROJECT_DIR$/cloud-sleuth-ui/cloud-sleuth-ui.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cloud-zipkin/cloud-zipkin.iml" filepath="$PROJECT_DIR$/cloud-zipkin/cloud-zipkin.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-cloud.iml" filepath="$PROJECT_DIR$/spring-cloud.iml" />
     </modules>
   </component>
