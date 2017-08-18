@@ -1,0 +1,28 @@
+server:
+  port: 9411
+
+spring:
+  application:
+    name: cloud-zipkin
+  datasource:
+      url: jdbc:mysql://localhost:3306/zipkin?useUnicode=true&useSSL=false&characterEncoding=utf8&allowMultiQueries=true
+      username: root
+      password: 123456
+      driver-class-name: com.mysql.jdbc.Driver
+      tomcat:
+        min-idle: 10
+        max-idle: 50
+        max-active: 100
+        test-on-borrow: true
+        test-on-return: false
+        test-while-idle: true
+        time-between-eviction-runs-millis: 5000
+        validation-query: SELECT 1
+
+management:
+  security:
+    enabled: false
+
+
+
+
