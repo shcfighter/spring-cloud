@@ -2,7 +2,6 @@ package cloud.simple.service;
 
 import cloud.simple.model.User;
 import org.springframework.cloud.netflix.feign.FeignClient;
-import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 
@@ -17,6 +16,6 @@ public interface FeignUserService {
     @RequestMapping(value = "getUserList")
     List<User> findByIdFeign();
 
-    @GetMapping("/getUser/{id}")
-    User getUser(@PathVariable int id);
+    @RequestMapping(value = "/getUser/{id}")
+    User getUser(@PathVariable(value = "id") Integer id);
 }
