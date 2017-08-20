@@ -92,6 +92,7 @@
     <if test="orderByClause != null">
       order by ${orderByClause}
     </if>
+    limit 50
   </select>
   <select id="selectByPrimaryKey" parameterType="java.lang.Long" resultMap="BaseResultMap">
     select 

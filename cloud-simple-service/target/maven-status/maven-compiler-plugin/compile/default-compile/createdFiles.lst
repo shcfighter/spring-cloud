@@ -1,3 +1,4 @@
+cloud\simple\bus\BusModel.class
 cloud\simple\SimpleServiceApplication.class
 cloud\simple\user\model\UserExample$Criterion.class
 cloud\simple\user\model\UserExample$Criteria.class

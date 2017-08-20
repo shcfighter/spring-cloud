@@ -24,4 +24,14 @@ public class FallBackFeignService implements FeignUserService {
         LOGGER.error("调用fallback。。。。。。。。。。。。。。。。。。。。。。。。。。。");
         return resultList;
     }
+
+    @Override
+    public User getUser(int id) {
+        User user = new User();
+        user.setUserName("调用错误");
+        LOGGER.error("调用fallback。。。。。。。。。。。。。。。。。。。。。。。。。。。");
+        return user;
+    }
+
+
 }

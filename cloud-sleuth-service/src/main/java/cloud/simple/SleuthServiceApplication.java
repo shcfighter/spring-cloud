@@ -11,8 +11,8 @@ import org.springframework.cloud.context.config.annotation.RefreshScope;
 @RefreshScope
 @EnableDiscoveryClient
 @SpringBootApplication
-public class SleuthSleuthApplication {
+public class SleuthServiceApplication {
     public static void main(String[] args) {
-        SpringApplication.run(SleuthSleuthApplication.class, args);
+        SpringApplication.run(SleuthServiceApplication.class, args);
     }
 }
