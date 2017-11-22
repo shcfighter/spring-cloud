@@ -2,7 +2,7 @@ server:
   port: 8761
 eureka:
   instance:  
-    hostname: springcloud3.com
+    hostname: localhost
   server:
     enableSelfPreservation: false
   client:
