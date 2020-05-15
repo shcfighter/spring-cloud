@@ -9,23 +9,19 @@ spring:
           uri: https://github.com/shcfighter/spring-cloud.git
           searchPaths: cloud-config-repo
     ## 开启消息跟踪
-    bus:
-      trace:
-        enabled: true
+#    bus:
+#      trace:
+#        enabled: true
   application:
     name: cloud-config-server
-  rabbitmq:
-    host: 192.168.101.154
-    port: 5672
-    username: admin
-    password: 123456
+#  rabbitmq:
+#    host: 192.168.1.57
+#    port: 5672
+#    username: admin
+#    password: 123456
 
 eureka:
   client:
     serviceUrl:
-      defaultZone: http://springcloud4.com:8761/eureka/
-      #defaultZone: http://springcloud1.com:8761/eureka/,http://springcloud2.com:8761/eureka/,http://springcloud3.com:8761/eureka/
-
-management:
-  security:
-    enabled: false
+      defaultZone: http://192.168.1.57:8761/eureka/
+      #defaultZone: http://192.168.1.57:8761/eureka/,http://192.168.1.57:8761/eureka/,http://192.168.1.57:8761/eureka/

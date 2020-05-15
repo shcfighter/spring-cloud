@@ -2,18 +2,16 @@ server:
   port: 8761
 eureka:
   instance:  
-    hostname: 192.168.101.154
+    hostname: 192.168.1.57
   server:
     enableSelfPreservation: false
   client:
     registerWithEureka: true
     fetchRegistry: true
     serviceUrl:
-      defaultZone: http://192.168.101.154:8761/eureka/,http://192.168.101.154:8762/eureka/,http://192.168.101.154:8763/eureka/
+      defaultZone: http://192.168.1.57:8761/eureka/
+      #defaultZone: http://192.168.1.57:8761/eureka/,http://192.168.1.57:8762/eureka/,http://192.168.1.57:8763/eureka/
 
 spring:
   application:
     name: cloud-eureka-server
-management:
-  security:
-    enabled: false

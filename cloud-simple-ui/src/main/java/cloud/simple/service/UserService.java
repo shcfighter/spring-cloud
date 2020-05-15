@@ -6,24 +6,23 @@
  */
 package cloud.simple.service;
 
-import java.util.ArrayList;
-import java.util.List;
-
+import cloud.simple.model.User;
+import com.netflix.hystrix.contrib.javanica.annotation.HystrixCommand;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.cloud.client.loadbalancer.LoadBalanced;
 import org.springframework.stereotype.Service;
 import org.springframework.web.client.RestTemplate;
-import cloud.simple.model.User;
-//import cloud.simple.service.UserServiceProvider.FeignUserService;
 
-import com.netflix.hystrix.contrib.javanica.annotation.HystrixCommand;
+import java.util.ArrayList;
+import java.util.List;
+
+//import cloud.simple.service.UserServiceProvider.FeignUserService;
 
 @Service
 public class UserService {
 	 private static final Logger LOGGER = LogManager.getLogger(UserService.class);
-	 final String SERVICE_NAME="cloud-simple-service";
+	 final String SERVICE_NAME="CLOUD-SIMPLE-SERVICE";
 
 	 @Autowired
 	 RestTemplate restTemplate;

@@ -30,9 +30,9 @@ public class User {
 
 	private String isDeleted;
 
-	private Date gmtCreated;
+	/*private Date gmtCreated;
 
-	private Date gmtModified;
+	private Date gmtModified;*/
 
 	private String modifier;
 
@@ -116,7 +116,7 @@ public class User {
 		this.isDeleted = isDeleted == null ? null : isDeleted.trim();
 	}
 
-	public Date getGmtCreated() {
+	/*public Date getGmtCreated() {
 		return gmtCreated;
 	}
 
@@ -130,7 +130,7 @@ public class User {
 
 	public void setGmtModified(Date gmtModified) {
 		this.gmtModified = gmtModified;
-	}
+	}*/
 
 	public String getModifier() {
 		return modifier;
